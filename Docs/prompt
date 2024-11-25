@@ -1,0 +1,13 @@
+In schools and universities, recommending academic resources is often difficult because there is no clear understanding of department courses, required skills, gained skills, and professors expertise. This can lead to poor resource suggestions and less effective learning. A recommendation system using clustering can solve this by matching students with the right resources based on their needs and goals. Project Added Value • Personalized recommendations improve students learning experience. • Optimized use of academic resources reduces waste. • Data insights help administrators make better decisions. • Aligns required and gained skills for academic success. Required Work Part N°1: Machine Learning ( Cluster-Based recommendation system )
+
+Data Preparation & Modeling : Objective: Prepare the shared dataset for optimal use in creating a Clustering-based recommendation system Machine Learning model. • Data Analysis and Preprocessing: ◦ Data Cleaning ◦ Normalize data to ensure consistency in models. ◦ Encode categorical variables ◦ And other data integration and preprocessing as much as you need to be the top team • Feature Engineering: ◦ Identify key variables to improve model accuracy. • Model Training: ◦ Test multiple algorithms to get the best cluster based recommendation system. ◦ Use Silhouette Score & Calinski-Harabasz Index & DaviesBouldin Index to evaluate your model performance ( will be submitted to the leader board ). • Model Deployment: ◦ Export the trained model (e.g., .pkl or .h5)
+
+
+Dataset academic:
+
+name,description,department_code,created_date,phone_number,email "Quality Assurance and Risk Management","department that is responsible for ensuring the quality of the products and services provided by the company and managing the risks associated with them.",dept_01JD8RJE3NTQPR3J6FGQ27DZ9Y,"1968-12-28 09:24:59","+2126442882953",wgaunter0@meetup.com
+
+dataset department : 
+
+SchoolDepartment,CourseTitle,Finish Time,Email,RequiredSkill,Professors,GainedSkill,strartingOrAsgnmtDate,Hour Quality Assurance and Risk Mgmt,Add Documents to 2020 Core Committee Page,,kfoulstone0@instagram.com,Website Programming,Fatima Zahra El Idrissi,Website Programming,04-03-2019,07:51:00 PM
+
